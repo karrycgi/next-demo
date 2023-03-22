@@ -1,0 +1,14 @@
+{
+  "name": "next-demo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:server": "yarn workspace @next-demo/server start",
+    "build:common": "yarn workspace @next-demo/common build"
+  },
+  "repository": "https://github.com/karrycgi/next-demo.git",
+  "author": "Martin Karry <martin.karry@cgi.com>",
+  "license": "MIT"
+}
